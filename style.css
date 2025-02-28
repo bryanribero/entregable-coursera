@@ -26,7 +26,7 @@
 .navbar li {
     padding: 20px 50px;
     cursor: pointer;
-    transition: all .3s ease;
+    transition: background-color .3s ease, transform .01s ease-in;
 }
 
 .navbar li:hover {
@@ -35,7 +35,7 @@
 
 .navbar li:active {
     background-color: rgb(107, 107, 107);
-    transform: scale(0.9);
+    transform: scale(0.98);
 }
 /* last styling navbar*/
 
