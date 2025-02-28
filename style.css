@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* start styling navbar*/
+.navbar {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    all: unset;
+    transition: all .30s ease;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    padding: 20px 50px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.navbar li:hover {
+    background-color: grey;
+}
+
+.navbar li:active {
+    background-color: rgb(107, 107, 107);
+    transform: scale(0.9);
+}
+/* last styling navbar*/
+
+/* start styling home*/
+.home {
+    text-align: center;
+    padding: 200px;
+    border-bottom: 1px solid black;
+}
+
+.home h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.home p {
+    font-size: 18px;
+}
+/* start styling home*/
+
+/* start styling HTML*/
+
+.html {
+    margin-top: 50px;
+}
